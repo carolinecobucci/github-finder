@@ -15,13 +15,13 @@ const Repo = ({ name, language, html_url, forks_count, stargazers_count }: RepoP
       <div className="flex gap-2">
         <div className="flex justify-center items-center">
           <FaRegStar className="bg-yellow-200 border rounded-l-md w-8 h-8 p-2" />
-          <span className="flex justify-center items-center border rounded-r-md w-8 h-8">
+          <span className="flex justify-center items-center border rounded-r-md p-1 min-w-8 h-8">
             {stargazers_count}
           </span>
         </div>
         <div className="flex justify-center items-center">
           <TbGitFork className="bg-green-200 border rounded-l-md w-8 h-8 p-2" />
-          <span className="flex justify-center items-center border rounded-r-md w-8 h-8 p-2">
+          <span className="flex justify-center items-center border rounded-r-md p-1 h-8 min-w-8">
             {forks_count}
           </span>
         </div>

@@ -38,7 +38,7 @@ const Repos = () => {
   if (!repos && isLoading) return <Loader />;
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center w-full min-h-screen pt-4 pb-20 max-sm:pt-16">
       <BackBtn />
       <h2 className="text-lg mb-1">Explore os repositórios do usuário:</h2>
       <p className="font-semibold mb-2">{username}</p>

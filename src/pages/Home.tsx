@@ -33,6 +33,7 @@ const Home = () => {
 
   return (
     <div>
+      <h1 className="text-2xl font-semibold mb-4 text-center">GitHub Finder</h1>
       <Search loadUser={loadUser} />
       {isLoading && <Loader />}
       {user && <User {...user} />}

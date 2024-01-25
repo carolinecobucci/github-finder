@@ -4,8 +4,7 @@ import Repos from "./pages/Repos";
 
 function App() {
   return (
-    <div className="flex flex-col justify-center items-center h-screen pt-3 bg-gray-50">
-      <h1 className="text-2xl font-semibold mb-4">GitHub Finder</h1>
+    <div className="flex flex-col justify-center items-center min-h-screen pt-3 bg-gray-50">
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/repos/:username" element={<Repos />}></Route>
