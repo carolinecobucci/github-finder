@@ -16,11 +16,11 @@ const User = ({ avatar_url, login, location, followers, following }: UserProps) 
       <div className="flex gap-6">
         <div className="flex flex-col gap-1 items-center text-sm font-semibold">
           <p>Seguidores:</p>
-          <p className="border bg-green-200 rounded-lg py-1 px-3">{following}</p>
+          <p className="border bg-green-200 rounded-lg py-1 px-3">{followers}</p>
         </div>
         <div className="flex flex-col gap-1 items-center text-sm font-semibold">
           <p>Seguindo:</p>
-          <p className="border bg-green-200 rounded-lg py-1 px-3">{followers}</p>
+          <p className="border bg-green-200 rounded-lg py-1 px-3">{following}</p>
         </div>
       </div>
       <Link

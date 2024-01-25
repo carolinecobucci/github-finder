@@ -50,7 +50,6 @@ const Repos = () => {
           ))}
         </div>
       )}
-      <div className="">back button</div>
     </div>
   );
 };
